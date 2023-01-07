@@ -13,3 +13,66 @@
  *= require_tree .
  *= require_self
  */
+
+html,body{
+    margin: 0px
+}
+
+.be-red{
+    background-color: #DCF235;
+}
+
+.white{
+    color: #323240;
+}
+
+.large-padding{
+    padding: 15px 10px;
+}
+
+nav{
+    padding: 15px 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    margin-left: 20px;
+    color:#636573;
+}
+
+a:visited{
+    color: inherit; /*para que los link mantengan su color */
+}
+
+div{
+    margin-left: 100xp;
+    padding: 15px 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.submit{
+    width: 100%;
+    background: #DCF235;
+    border: none;
+    padding: 12px;
+    color: #323240;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+
+a{
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+    border: #DCF235;
+}
