@@ -15,7 +15,9 @@
  */
 
 html,body{
-    margin: 0px
+    margin: 0px;
+    padding: 20px;
+    padding-top: 0px;
 }
 
 .be-red{
@@ -33,7 +35,7 @@ html,body{
 nav{
     padding: 15px 10px;
     font-family: 'Space Mono', monospace;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -72,7 +74,16 @@ p{
 }
 
 a{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Space Mono', monospace;
     border: #DCF235;
+    text-decoration: none;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+_navbar{
+    size: 10px;
+    padding: 0px;
 }
