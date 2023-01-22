@@ -18,8 +18,12 @@ html{
     margin: 0px;
     /*margin-left: 25px;*/ 
     padding-top: 0px;
+    background-color: #323240;
 }
 
+body{
+    color: #323240;
+}
 
 .be-red{
     background-color: #DCF235;
@@ -44,7 +48,7 @@ nav{
 h1{
     font-family: 'Space Mono', monospace;
     margin-left: 20px;
-    color:#636573;
+    color: whitesmoke;
     text-align: center;
 }
 
