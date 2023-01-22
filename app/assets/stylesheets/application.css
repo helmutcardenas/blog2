@@ -14,14 +14,16 @@
  *= require_self
  */
 
-html,body{
+html{
     margin: 0px;
-    padding: 20px;
+    /*margin-left: 25px;*/ 
     padding-top: 0px;
 }
 
+
 .be-red{
     background-color: #DCF235;
+    margin-left: 0px;
 }
 
 .white{
@@ -43,6 +45,7 @@ h1{
     font-family: 'Space Mono', monospace;
     margin-left: 20px;
     color:#636573;
+    text-align: center;
 }
 
 a:visited{
@@ -79,11 +82,24 @@ a{
     border: #DCF235;
     text-decoration: none;
     padding: 5px;
-    text-align: justify;
+    /*margin-left: 25px;*/
+    margin-top: 15px;
+    /*text-align: justify; */
 }
 
 
-_navbar{
+._navbar{
     size: 10px;
-    padding: 0px;
+    padding-left: 15px;
+}
+
+h2{
+    margin-left: 25px;
+    font-family: 'Space Mono', monospace;
+}
+
+footer{
+    background-color: #DCF235;
+    width: 100%;
+    align-items: center;
 }
